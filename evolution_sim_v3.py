@@ -92,7 +92,7 @@ init_biases_1st_lay = np.zeros((2), np.float16)
 # ---------------------------------------------------------------------------------------------------------------------
 # Food parameters
 foodRadius = 0.3
-foodEnergy = 15
+foodEnergy = 20
 # Equation for food growth: dF/dt = foodRate*F*(1-F/foodCarryingCapac) where F is the number of living food
 foodCarryingCapac = 20
 foodRate = 0.04
